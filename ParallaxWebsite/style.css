@@ -1,0 +1,51 @@
+html,body{
+    height:100%;
+    margin: 0;
+}
+.image1{
+    background-image: url(images/image1.jpg);
+}
+.image2{
+    background-image: url(images/image2.jpg);
+}
+.image3{
+    background-image: url(images/image3.jpg);
+}
+.image4{
+    background-image: url(images/image4.jpg);
+}
+.image5{
+    background-image: url(images/image5.jpg);
+}
+.image1,.image2,.image3,.image4,.image5{
+    min-height:100%;
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    left:35%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing:0.2em;
+    color:white;
+}
+.txtbg{
+    background-color:black;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.bgnd1,.bgnd2,.bgnd3,.bgnd4,.bgnd5{
+    text-align: center;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+   
+}
+
+
+
